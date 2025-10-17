@@ -11,4 +11,7 @@
     <string name="treure_pes">Treure pes</string>
     <string name="age">Age</string>
     <string name="calculate">Calculate</string>
+    <string name="imc_results">imc results</string>
+    <string name="boto_per_tornar_enrere">Boto per tornar enrere.</string>
+    <string name="your_results">Your Results</string>
 </resources>
