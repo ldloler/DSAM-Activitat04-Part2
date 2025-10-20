@@ -14,4 +14,5 @@
     <string name="imc_results">imc results</string>
     <string name="boto_per_tornar_enrere">Boto per tornar enrere.</string>
     <string name="your_results">Your Results</string>
+    <string name="re_calculate">re-calculate</string>
 </resources>
