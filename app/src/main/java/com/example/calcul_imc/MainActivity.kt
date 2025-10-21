@@ -66,5 +66,15 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("numIMC", numIMC.toString())
             startActivity(intent)
         }
+
+        maleButton.setOnClickListener {
+            maleButton.setImageResource(R.drawable.ic_home_color)
+            femaleButton.setImageResource(R.drawable.ic_dona)
+        }
+
+        femaleButton.setOnClickListener {
+            maleButton.setImageResource(R.drawable.ic_home)
+            femaleButton.setImageResource(R.drawable.ic_dona_color)
+        }
     }
 }
