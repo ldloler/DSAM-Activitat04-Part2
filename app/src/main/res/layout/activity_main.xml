@@ -217,7 +217,7 @@
                 android:id="@+id/numWeight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="170"
+                android:text="80"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:textSize="40sp"
@@ -362,7 +362,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cvCalculate"
+        android:id="@+id/cvReCalculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
@@ -373,6 +373,7 @@
         >
 
         <LinearLayout
+            android:id="@+id/btnCalculate"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"

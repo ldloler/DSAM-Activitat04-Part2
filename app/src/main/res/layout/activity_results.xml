@@ -32,6 +32,7 @@
             >
 
             <ImageView
+                android:id="@+id/goBack"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/boto_per_tornar_enrere"
@@ -74,7 +75,8 @@
         android:id="@+id/cvCalcul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/resultText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:cardCornerRadius="16dp"
@@ -111,13 +113,14 @@
                 android:textSize="100sp"
                 android:textColor="@color/white"
                 android:textStyle="bold"
+                android:layout_marginTop="30dp"
                 />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cvCalculate"
+        android:id="@+id/cvReCalculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
@@ -128,6 +131,7 @@
         >
 
         <LinearLayout
+            android:id="@+id/btReCalculate"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
